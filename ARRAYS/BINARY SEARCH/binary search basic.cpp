@@ -9,3 +9,7 @@ int search(vector<int> &nums, int target) {
     }
     return -1;
 }
+
+/*since every things for finding in a sorted array is cut to half of the array, hence the 
+TIME COMPLEXITY = O(log2n)
+*/
